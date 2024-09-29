@@ -1,0 +1,25 @@
+/* Navin ulkoasulle muokkauksija
+*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #6b77f8;
+  color: rgb(231, 231, 231);
+}
+
+.topnav a.active {
+  background-color: #e0e0e0;
+  color: rgb(0, 0, 0);
+}
